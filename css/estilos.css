@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .contenedorheader{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 180px;
+    }
+    .navegacion{
+        .listanav{
+            height: 100%;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .listaitem{
+                display: inline-block;
+                margin-left: 10px;
+            }
+            .linknav{
+                text-decoration: none;
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+    
+    }
+}
+.main{
+    background-color: black;
+    .imagenfondoindex{
+        height: 50vh;
+        background-image: url(../assets/img/imagenfondoindex.jpg);
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-size: 3rem;
+        text-shadow: 0px 0px 9px rgba(255,255,255,1);
+    }
+    .subtitulospages{
+        text-align: center;
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: white;
+        background-color: black;
+    }
+}
+.contenedortarjetas{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 0 auto;
+        .tarjetas{
+            background-color: rgb(0, 0, 0);
+            font-size: 1rem;
+            width: 50%;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 0px 0px 6px 6px;
+            box-shadow: 0px 0px 11px 5px rgba(255, 255, 255, 0.75);
+            text-decoration: none;
+            .linktarjetas{
+                text-decoration: none;
+            }
+            .imgtarjetas{
+                width: 100%;
+            }
+            .textotarjeta{
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+        }
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    .contenedoresfooter{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+     display: flex;
+    }
+        .divfooter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+            .iconosfooter{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            }
+                .fa-whatsapp{
+                color: rgb(255, 255, 255);
+                font-size: 5rem;
+                }
+                .fa-instagram{
+                color: rgb(255, 255, 255);
+                font-size: 5rem;
+                }
+                .fa-facebook{
+                color: rgb(255, 255, 255);
+                font-size: 5rem;
+                }
+
+}
+.pie{
+    padding: 10px;
+    text-align: center;
+}

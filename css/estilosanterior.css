@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&family=Sarabun:wght@100;200;300;400&display=swap'); /*
+h1{
+    color: hsl(51, 82%, 44%);
+    font-size: 38px;
+    background-color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h2{
+    color: hsl(51, 82%, 44%);
+    font-size: 18px;
+    background-color: black;
+    font-family: 'Sarabun', sans-serif;
+}
+h3{
+    color: hsl(51, 82%, 44%);
+    font-size: 16px;
+    background-color: black;
+    font-family: 'sarabun', sans-serif;
+}
+p{
+    font-family: 'sarabun' , sans-serif;
+    font-weight: 300; /*para modificar grosor de letra
+*/
+/*hasta aca iba al ritmo de la clase, la prof recomendo usar class*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fuenteheader{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Sarabun', sans-serif;
+    .contenedorheader{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        background-color: hwb(0 0% 100%);
+        justify-content: space-between;
+        .listanav{
+        height: 100%;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        .link{
+        margin-left: 20px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: hsl(51, 82%, 44%);
+        }
+        }
+    }
+}
+.colorgold{
+    color: rgb(255, 196, 0);
+}
+.colorwhite{
+    color: white;
+}
+.fuentetitulos{
+    font-size: 2.5rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: black;
+}
+.fuentesubtitulos{
+    font-size: 2rem;
+    font-family: 'Sarabun', sans-serif;
+    background-color: black;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.fuenteparrafos{
+    color: white;
+    font-size: 1.5srem;
+    font-family: 'Sarabun', sans-serif;
+    background-color: black;
+    font-weight: 200;
+}
+.contenedortextoindex{
+    text-align: center;
+    margin-top: 30px;
+}
+.contenedoresinicio{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .tarjetas{
+        background-color: blueviolet; /*no se cual es la razon de que aparezca este espacio entre imagen y h3*/
+        width: 30%;
+        border: 3px solid rgb(0, 0, 0);
+        margin-bottom: 10px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        .imgtarjeta{
+            width: 100%;
+        }
+    }
+}
+.textotarjetas{
+    background-color: black;
+    color: rgb(255, 196, 0);
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.contenedortextocontacto{
+    text-align: center;
+    margin-top: 30px;
+}
+.contenedorcontacto{
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    .imgcontacto{
+         width:50%;     
+        }
+}
+.contenedorformulario{ /*este formulario quisiera llervarlo al lado de la imagen*/
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    .fuenteformulario{
+        color: hsl(0, 0%, 100%);
+        font-size: 2rem;
+        font-family: 'Sarabun', sans-serif;
+        background-color: black;
+        font-weight: 200;
+    }
+}
+.contenedortextoinsumos{
+    text-align: center;
+    margin-top: 30px;
+}
+.contenedoresinsumos{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .tarjetainsumos{
+        background-color: blueviolet; /*sigue apareciendome el espacio, lo diferencio con este color :( */
+        width: 40%;
+        border: 1px solid rgb(0, 0, 0);
+        margin-bottom: 10px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+      .imgtarjetainsumos{
+        width: 100%;
+        }
+    }
+}
+.contenedortextonosotros{
+    text-align: center;
+    margin-top: 30px;
+}
+.seccionesnosotros{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        .secciones{
+        background-color: blueviolet;
+        width: 100%;
+        .imgnosotros{
+        width: 40%;
+        }
+    }
+}
+.contenedoresservicios{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        .tarjetas{
+            background-color: blueviolet;
+            width: 30%;
+            border: 1px solid rgb(0, 0, 0);
+            margin-bottom: 20px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        .imgtarjeta{
+            width: 100%;
+        }
+    }
+}  
+.contenedortextoservicios{
+    text-align: center;
+    margin-top: 30px;
+}
+.fuentepiepagina{
+    color: white;
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: black;
+    font-weight: 100;
+}
