@@ -9,121 +9,102 @@
 .header{
     background-color: rgb(0, 0, 0);
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    .contenedorheader{
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
     .logo{
         width: 180px;
-    }
-    .navegacion{
-        .listanav{
-            height: 100%;
-            list-style: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            .listaitem{
-                display: inline-block;
-                margin-left: 10px;
-            }
-            .linknav{
-                text-decoration: none;
-                color: white;
-                font-size: 1.5rem;
-            }
-        }
-    
     }
 }
 .main{
     background-color: black;
-    .imagenfondoindex{
-        height: 50vh;
-        background-image: url(../assets/img/imagenfondoindex.jpg);
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        font-size: 3rem;
-        text-shadow: 0px 0px 9px rgba(255,255,255,1);
-    }
-    .subtitulospages{
-        text-align: center;
-        font-weight: 800;
-        font-size: 1.5rem;
-        color: white;
-        background-color: black;
+}
+.imagenfondoindex{
+    height: 50vh;
+    text-align: center;
+    background-image: url(../assets/img/imagenfondoindex.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tituloindex{
+    font-size: 3rem;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.26);
     }
 }
-.contenedortarjetas{
-    background-color: rgb(0, 0, 0);
-    width: 90%;
-    margin: 0 auto;
-        .tarjetas{
-            background-color: rgb(0, 0, 0);
-            font-size: 1rem;
-            width: 50%;
-            border: 1px solid rgb(255, 255, 255);
-            border-radius: 0px 0px 6px 6px;
-            box-shadow: 0px 0px 11px 5px rgba(255, 255, 255, 0.75);
-            text-decoration: none;
-            .linktarjetas{
-                text-decoration: none;
-            }
-            .imgtarjetas{
-                width: 100%;
-            }
-            .textotarjeta{
-                padding: 10px;
-                text-align: center;
-                color: white;
-            }
-        }
+.subtitulospages{
+    background-color: black;
+}
+.tarjetas{
+    width: 450px;
+    box-shadow: 0px 0px 37px -7px rgba(255, 255, 255, 0.877);
+}
+.titulospaginas{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+}
+.contenedoresnosotros{
+    background-color: black;
+}
+.grillanosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto,2);
+    grid-template-areas: "uno imguno"
+    "imgdos dos";
+    column-gap: 20px;
+    .uno{
+        grid-area: uno;
+        text-align: end;
+        margin: auto;
+    }
+    .dos{
+        grid-area: dos;
+        margin: auto;
+    }
+    .imguno{
+        grid-area: imguno;
+    }
+    .imgdos{
+        grid-area: imgdos;
+    }
+}
+.imgfondoservicios{
+    height: 50vh;
+    background-image: url(../assets/img/imagenfondonservicios.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .tituloservicios{
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+}
+.tarjetaservicios{
+    width: 350px;
+    box-shadow: 0px 0px 37px -7px rgba(255, 217, 0, 0.479);
 }
 .footer{
     background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 10px;
-    .contenedoresfooter{
-    width: 90%;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 0);
-     display: flex;
-    }
-        .divfooter{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        }
-            .iconosfooter{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-            }
-                .fa-whatsapp{
-                color: rgb(255, 255, 255);
-                font-size: 5rem;
-                }
-                .fa-instagram{
-                color: rgb(255, 255, 255);
-                font-size: 5rem;
-                }
-                .fa-facebook{
-                color: rgb(255, 255, 255);
-                font-size: 5rem;
-                }
-
+    color: rgb(255, 255, 255);
 }
-.pie{
-    padding: 10px;
-    text-align: center;
+.iconows{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+}
+.iconofb{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+}
+.iconoig{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
 }
