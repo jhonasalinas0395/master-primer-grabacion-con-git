@@ -42,39 +42,41 @@
               </nav>
         </header>
         <main class="main p-3">
-            <section class="container mt-2">
+            <section class="container-fluid mt-2">
                 <h1 class="titulospaginas">Contacto</h1>                    
                 <h3 class="text-center text-white">En Studio G, nos complace en que te encuentres acá, si deseas conocernos un poco más, agendar cita para servicios, compra de insumos o tienes alguna opinión en general, te dejamos el siguiente espacio para que te comuniques con nosotros.</h3>
             </section>
-            <section class="text-white row">
-              <div class="col-6">
-                <img src="../assets/img/pagescontacto.jpg" class="rounded-pill" alt="Imagen que representa rostro especificamente en ojos de mujer">
-              </div>
-              <div class="col-6">
-                <form action="">
-                  <div class="mb-3 mt-5">
-                    <input type="text" placeholder="Ingrese su nombre" class="form-control" id="name" name="name" required>
-                  </div>
-                  <div class="mb-3">
-                    <input type="tel" placeholder="Ingrese su teléfono" class="form-control" id="tel" name="tel" required>
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su correo" name="email" required>
-                  </div>
-                  <div class="mb-3">
-                    <textarea class="form-control" id="Comentarios" rows="3" name="comentarios" placeholder="Ingrese sus comentarios"></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <input class="form-check-input" type="checkbox" id="email" name="email">
-                    <label class="form-check-label" for="email">
-                      Recibir información a mi correo
-                    </label>
-                  </div>
-                  <div>
-                    <input type="submit" class="btn btn-primary" value="Enviar" name="Enviar" id="name">
-                    <input type="reset" class="btn btn-danger" value="Limpiar datos" name="Limpiar datos" id="name">
-                  </div>
-                </form>
+            <section class="text-white container-fluid">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <img src="../assets/img/pagescontacto.jpg" class="rounded-pill w-100" alt="Imagen que representa rostro especificamente en ojos de mujer">
+                </div>
+                <div class="col-12 col-md-6">
+                  <form action="">
+                    <div class="mb-3 mt-5">
+                      <input type="text" placeholder="Ingrese su nombre" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                      <input type="tel" placeholder="Ingrese su teléfono" class="form-control" id="tel" name="tel" required>
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="email" placeholder="Ingrese su correo" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <textarea class="form-control" id="Comentario" rows="3" name="comentario" placeholder="Ingrese sus comentarios"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <input class="form-check-input" type="checkbox" id="email" name="email">
+                      <label class="form-check-label" for="email">
+                        Recibir información a mi correo
+                      </label>
+                    </div>
+                    <div>
+                      <input type="submit" class="btn btn-light" value="Enviar" name="enviar" id="enviar">
+                      <input type="reset" class="btn btn-light" value="Limpiar datos" name="limpiar datos" id="name">
+                    </div>
+                  </form>
+                </div>
               </div>
               <div class="row justify-content-center mt-3">
                 <h4 class="text-center">Información adicional de cuidados</h4>
@@ -83,7 +85,7 @@
               </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer container-fluid">
             <section class="w-75 text-center mx-auto d-flex flex-wrap justify-content-evenly">
                 <div>
                     <h4>Nuestras redes</h4>

@@ -70,6 +70,21 @@
         grid-area: imgdos;
     }
 }
+    @media screen and (max-width: 768px) {
+        .grillanosotros {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(auto,4);
+            grid-template-areas: "uno"
+            "imguno"
+            "dos"
+            "imgdos";
+            row-gap: 20px;
+            .uno,dos{
+                text-align: initial;
+            }
+
+        }
+    }
 .imgfondoservicios{
     height: 50vh;
     background-image: url(../assets/img/imagenfondonservicios.jpg);
