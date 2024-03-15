@@ -1,0 +1,17 @@
+.imagenfondoindex{
+    height: 50vh;
+    text-align: center;
+    background-image: url(../assets/img/imagenfondoindex.jpg);
+    background-size: cover;
+    background-position: center;
+    @include flex($center, center);
+    .tituloindex{
+    font-size: 3rem;
+    font-weight: 500;
+    background-color: $bg-img-index;
+    }
+}
+.tarjetas{
+    width: $w-tarjetas;  
+    box-shadow: 0px 0px 37px -7px $tarj-box-shadow;
+}

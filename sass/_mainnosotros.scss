@@ -1,0 +1,37 @@
+.grillanosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto,2);
+    grid-template-areas: "uno imguno"
+    "imgdos dos";
+    column-gap: 20px;
+    .uno{
+        grid-area: uno;
+        text-align: end;
+        margin: auto;
+    }
+    .dos{
+        grid-area: dos;
+        margin: auto;
+    }
+    .imguno{
+        grid-area: imguno;
+    }
+    .imgdos{
+        grid-area: imgdos;
+    }
+}
+@media screen and (max-width: 768px) {
+    .grillanosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto,4);
+        grid-template-areas: "uno"
+        "imguno"
+        "dos"
+        "imgdos";
+        row-gap: 20px;
+        .uno,dos{
+            text-align: initial;
+        }
+    }
+}

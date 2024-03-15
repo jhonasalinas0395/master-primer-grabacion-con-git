@@ -1,0 +1,19 @@
+.imgfondoservicios{
+    height: 50vh;
+    background-image: url(../assets/img/imagenfondonservicios.jpg);
+    background-size: cover;
+    background-position: center;
+    display: map-get($map-flex, flex);
+    flex-wrap: map-get($map-flex, wrap);
+    justify-content: map-get($map-flex ,center);
+    align-items: map-get($map-flex, center);
+    .tituloservicios{
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: $bg-titulo-serv;
+    }
+}
+.tarjetaservicios{
+    width: $w-tarjetas-serv;
+    box-shadow: 0px 0px 37px -7px $tarj-box-shadow-serv;
+}

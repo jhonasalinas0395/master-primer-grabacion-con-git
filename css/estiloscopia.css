@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.logo{
+        width: 180px;
+}
+.fondoblack{
+    background-color: black;
+}
+.imagenfondoindex{
+    height: 50vh;
+    text-align: center;
+    background-image: url(../assets/img/imagenfondoindex.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tituloindex{
+    font-size: 3rem;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.26);
+    }
+}
+.tarjetas{
+    width: 300px;  
+    box-shadow: 0px 0px 37px -7px rgba(255, 255, 255, 0.877);
+}
+.grillanosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto,2);
+    grid-template-areas: "uno imguno"
+    "imgdos dos";
+    column-gap: 20px;
+    .uno{
+        grid-area: uno;
+        text-align: end;
+        margin: auto;
+    }
+    .dos{
+        grid-area: dos;
+        margin: auto;
+    }
+    .imguno{
+        grid-area: imguno;
+    }
+    .imgdos{
+        grid-area: imgdos;
+    }
+}
+    @media screen and (max-width: 768px) {
+        .grillanosotros {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(auto,4);
+            grid-template-areas: "uno"
+            "imguno"
+            "dos"
+            "imgdos";
+            row-gap: 20px;
+            .uno,dos{
+                text-align: initial;
+            }
+
+        }
+    }
+.imgfondoservicios{
+    height: 50vh;
+    background-image: url(../assets/img/imagenfondonservicios.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .tituloservicios{
+        font-size: 3rem;
+        font-weight: 500;
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+}
+.tarjetaservicios{
+    width: 350px;
+    box-shadow: 0px 0px 37px -7px rgba(255, 217, 0, 0.479);
+}
+.iconos{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+}
+.iconosinsu{
+    font-size: 30px;
+}
