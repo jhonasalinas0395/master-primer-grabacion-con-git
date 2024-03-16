@@ -9,6 +9,7 @@
   "author": "studio g",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "sass": "^1.72.0"
   }
 }

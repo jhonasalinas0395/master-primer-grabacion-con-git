@@ -8,9 +8,11 @@
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
-        <header class="fondoblack position-sticky top-0">
+        <header class="fondoblack top-0">
             <nav class="navbar navbar-expand-lg navbar-dark fs-4">
                 <div class="container">
                   <a class="navbar-brand" href="../index.html">
@@ -43,56 +45,56 @@
         </header>
         <main class="fondoblack">
             <section class="imgfondoservicios">
-                <h1 class="tituloservicios">Servicios</h1>
+                <h1 class="tituloservicios animate__animated animate__bounce animate__slower animate__infinite">Servicios</h1>
             </section>
             <section>
               <h3 class="fondoblack p-2 text-center text-white">Studio G, le apasiona y complace embellecer rostros por lo que les ofrecemos los siguientes servicios</h3>
             </section>
             <section>
                 <section class="p-3 text-white d-flex flex-wrap justify-content-center">
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-left">
                         <img class="w-100" src="../assets/img/servpestañasclasicas.jpg" alt="Imagen que representa ojo de mujer con extensiones de pestañas de efecto clasicas">
                         <div class="m-2">
                           <h4>Efecto clasicas</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-up">
                         <img class="w-100" src="../assets/img/servpestañasrimel.jpg" alt="Imagen que representa ojo de mujer con extensiones de pestañas de efecto rimel">
                         <div class="m-2">
                           <h4>Efecto rimel</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="zoom-in">
                         <img class="w-100" src="../assets/img/servpestañasrimelfull.jpg" alt="Imagen que representa ojo de mujer con extensiones de pestañas con efecto rimel full">
                         <div class="m-2">
                           <h4>Efecto rimel full</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-left">
                         <img class="w-100" src="../assets/img/servpestañasvolumenruso.jpg" alt="Imagen que representa ojo de mujer con extensiones de pestañas con efecto de volumen ruso">
                         <div class="m-2">
                           <h4>Efecto volumen ruso</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-up">
                         <img class="w-100" src="../assets/img/servpestañasvolumentecno.jpg" alt="Imagen que representa ojo de mujer con extensiones de pestañas volumen tecnologico">
                         <div class="m-2">
                           <h4>Efecto volumen tecnologico</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom"  data-aos="zoom-in">
                         <img class="w-100" src="../assets/img/servlifting.jpg" alt="Imagen que representa ojo de mujer con efecto de lifting de pestañas">
                         <div class="m-2">
                           <h4>Lifting de pestañas</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-left">
                         <img class="w-100" src="../assets/img/servlaminadocejas.jpg" alt="Imagen que representa ojo de mujer con laminado de cejas">
                         <div class="m-2">
                           <h4>Laminado de cejas</h4>
                         </div>
                     </div>
-                    <div class="tarjetaservicios m-3 p-1 rounded-bottom">
+                    <div class="tarjetaservicios m-3 p-1 rounded-bottom" data-aos="flip-up">
                         <img class="w-100" src="../assets/img/servsombreadosemipercejas.jpg" alt="Imagen que representa ojo de mujer con sombreado semipermanente de cejas">
                         <div class="m-2">
                           <h4>Sombreado semipermanente de cejas</h4>
@@ -128,5 +130,9 @@
             </section>
         </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>

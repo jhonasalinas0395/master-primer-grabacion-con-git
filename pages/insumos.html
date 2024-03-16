@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header class="fondoblack top-0">
@@ -46,7 +47,7 @@
                 <h1>Insumos</h1>
                 <h3>Si te apasiona este rubro te dedicas a ello o te interesa adquirir los implementos, en Studio G encontraras variedad de productos que distribuimos.</h3>
             </section>
-            <section class="container-fluid d-flex flex-wrap justify-content-evenly">
+            <section class="container-fluid d-flex flex-wrap justify-content-evenly" data-aos="zoom-in">
               <div class="card mb-3" style="max-width: 630px;">
                 <div class="row  g-0">
                   <div class="col-md-4">
@@ -242,6 +243,10 @@
               </div>
           </section>
       </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
